@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+
+}
+
+body{
+    
+    font-size: 25px;
+    background-color: azure;
+    
+}
+nav{
+    gap: 30px;
+}
+header{  
+    justify-content: space-between; 
+    padding:20px;
+    background-color: beige;  
+    
+    
+}
+.brook{
+    gap: 10px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: black;  
+}
+
+button{
+    background-color: blueviolet;
+}
+
+.botao{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6%;
+}
+
+
+img{
+    width: 500px;
+    height: 600px;
+}
+
+article{
+    padding-top: 100px;
+    gap: 40px;
+}
+
+
+
+.os_tres{
+    gap: 3px;
+    text-align: center;
+    
+    
+}
+.primeiro{
+    background-color: rgb(226, 223, 223);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+article,.os_tres,header,.brook,nav{
+    display: flex;
+}
+
+.subcontainer{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+button{
+    font-size: 22px;
+    color: white;
+    border: none;
+    
+}
+.tamanho-fonte{
+    font-size: 16px;
+}
+.bold{
+    font-weight: bold;  
+}
+
+.links{
+    font-size: 15px;
+    margin-right: 30px;
+    gap: 20px;
+} 
+.botao1{
+    font-size: 15px;
+    padding: 10px;
+    margin-top: -8px; 
+    border-radius: 6%;  
+}
+.brook1{
+    background-color: blueviolet;
+    padding: 10px;
+    margin-top: -8px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+
+}
